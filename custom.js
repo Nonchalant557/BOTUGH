@@ -126,11 +126,11 @@ module.exports = async ({ api, event }) => {
 		timezone: "Asia/Manila"
 	});
 
-	// AUTOGREET EVERY 8 hours
-	cron.schedule('*/30 * * * *', () => {
+	// AUTOGREET EVERY 1 hours
+	cron.schedule('*/3600000 * * * *', () => {
 		const currentTime = Date.now();
 		if (currentTime - lastMessageTime < minInterval) {
-			console.log("Skipping message due to rate limit");
+			console.log("𝙰𝚃𝚃𝙴𝙽𝙳𝙰𝙽𝙲𝙴 𝙲𝙷𝙴𝙲𝙺 𝚁𝙴𝙰𝙲𝚃 𝚃𝙷𝙸𝚂 𝙼𝙴𝚂𝚂𝙰𝙶𝙴");
 			return;
 		}
 
@@ -249,7 +249,7 @@ cron.schedule('*/60 * * * *', () => {
 		async function message(thread) {
 			try {
 				api.sendMessage({
-					body: `Hey There! How are you? ヾ(＾-＾)ノ`
+					body: `𝙰𝚃𝚃𝙴𝙽𝙳𝙰𝙽𝙲𝙴 𝙲𝙷𝙴𝙲𝙺 𝚁𝙴𝙰𝙲𝚃 𝚃𝙷𝙸𝚂 𝙼𝙴𝚂𝚂𝙰𝙶𝙴`
 				}, thread.threadID, (err) => {
 					if (err) return;
 					messagedThreads.add(thread.threadID);
