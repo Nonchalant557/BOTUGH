@@ -1,0 +1,58 @@
+[
+  {
+    "key": "c_user",
+    "value": "61559353296510",
+    "domain": "facebook.com",
+    "started": "Mon, Jun 24, 2024, 02:58:05 PM GMT+1",
+    "expires": "Tue, 24 Jun 2025 13:58:01 GMT",
+    "deviceID": "93cfd85b-e447-462a-8a92-6b39fdd67b48",
+    "path": "/",
+    "secure": true,
+    "samesite": "None",
+    "hostOnly": false,
+    "KeyGen": "Sec-Key-Priority",
+    "KeyGenPriority": "High"
+  },
+  {
+    "key": "xs",
+    "value": "24:ok4ydYNNINtYGQ:2:1719237482:-1:7856",
+    "domain": "facebook.com",
+    "started": "Mon, Jun 24, 2024, 02:58:05 PM GMT+1",
+    "expires": "Tue, 24 Jun 2025 13:58:01 GMT",
+    "deviceID": "93cfd85b-e447-462a-8a92-6b39fdd67b48",
+    "path": "/",
+    "secure": true,
+    "samesite": "None",
+    "hostOnly": false,
+    "KeyGen": "Sec-Key-Priority",
+    "KeyGenPriority": "High"
+  },
+  {
+    "key": "fr",
+    "value": "0r1LtiGrm8bhSlku2.AWV6kY2eGrVgAVpaNKTjgdtqdns.BmeXtp..AAA.0.0.BmeXtp.AWUNbawMQ9k",
+    "domain": "facebook.com",
+    "started": "Mon, Jun 24, 2024, 02:58:05 PM GMT+1",
+    "expires": "Sun, 22 Sep 2024 13:58:01 GMT",
+    "deviceID": "93cfd85b-e447-462a-8a92-6b39fdd67b48",
+    "path": "/",
+    "secure": true,
+    "samesite": "None",
+    "hostOnly": false,
+    "KeyGen": "Sec-Key-Priority",
+    "KeyGenPriority": "High"
+  },
+  {
+    "key": "datr",
+    "value": "aXt5Ztwcp6I1r_mxcPHooB1w",
+    "domain": "facebook.com",
+    "started": "Mon, Jun 24, 2024, 02:58:05 PM GMT+1",
+    "expires": "Tue, 29 Jul 2025 13:58:01 GMT",
+    "deviceID": "93cfd85b-e447-462a-8a92-6b39fdd67b48",
+    "path": "/",
+    "secure": true,
+    "samesite": "None",
+    "hostOnly": false,
+    "KeyGen": "Sec-Key-Priority",
+    "KeyGenPriority": "High"
+  }
+]
